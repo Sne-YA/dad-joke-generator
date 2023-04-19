@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(135deg, lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 100px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    color: rgb(166, 59, 77);
+}
+.heading {
+    font-size: 50px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.joke{
+    font-size: 22px;
+    font-weight: 200;
+    
+}
+.btn {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border:none;
+    width: 60%;
+    font-weight: 700;
+    background-color: rgb(48, 43, 43);
+    color: aliceblue;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: rgb(166, 59, 77);;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transition: all 200ms ease;
+}
